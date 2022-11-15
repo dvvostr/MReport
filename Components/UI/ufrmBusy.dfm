@@ -1,0 +1,81 @@
+object frmBusy: TfrmBusy
+  Left = 0
+  Top = 0
+  Caption = 'frmBusy'
+  ClientHeight = 163
+  ClientWidth = 472
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  PixelsPerInch = 96
+  TextHeight = 15
+  object pnProcess1: TPanel
+    Left = 0
+    Top = 36
+    Width = 472
+    Height = 37
+    Align = alTop
+    BevelOuter = bvNone
+    Padding.Left = 16
+    Padding.Top = 5
+    Padding.Right = 16
+    Padding.Bottom = 5
+    TabOrder = 0
+    object edProcess1: TcxProgressBar
+      Left = 16
+      Top = 9
+      Align = alBottom
+      Position = 20.000000000000000000
+      Properties.BarStyle = cxbsLEDs
+      Properties.BeginColor = clHighlight
+      Properties.PeakValue = 20.000000000000000000
+      Properties.ShowText = False
+      TabOrder = 0
+      ExplicitTop = 11
+      Width = 440
+    end
+  end
+  object lblCaption: TcxLabel
+    Left = 0
+    Top = 0
+    Align = alTop
+    AutoSize = False
+    Caption = 'lblCaption'
+    Properties.Alignment.Horz = taCenter
+    Properties.Alignment.Vert = taVCenter
+    Transparent = True
+    Height = 36
+    Width = 472
+    AnchorX = 236
+    AnchorY = 18
+  end
+  object pnProcess2: TPanel
+    Left = 0
+    Top = 73
+    Width = 472
+    Height = 48
+    Align = alTop
+    BevelOuter = bvNone
+    Padding.Left = 16
+    Padding.Top = 5
+    Padding.Right = 16
+    Padding.Bottom = 5
+    TabOrder = 2
+    object edProcess2: TcxProgressBar
+      Left = 16
+      Top = 20
+      Align = alBottom
+      Position = 20.000000000000000000
+      Properties.BarStyle = cxbsLEDs
+      Properties.BeginColor = clHighlight
+      Properties.PeakValue = 20.000000000000000000
+      Properties.ShowText = False
+      TabOrder = 0
+      ExplicitTop = 22
+      Width = 440
+    end
+  end
+end
